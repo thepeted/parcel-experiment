@@ -1,0 +1,13 @@
+{
+  "name": "parcel-experiment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Peter Daily <peter.daily@zoopla.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
