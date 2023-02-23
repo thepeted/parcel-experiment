@@ -1,3 +1,14 @@
+const foo = 1;
+
+if (foo == NaN) {
+  // ...
+}
+
 export function App() {
-  return <h1>Hello world from React!!!!!</h1>;
+  return (
+    <div>
+      <div>hello {foo}</div>
+      <div>{`hello ${foo}`}</div>
+    </div>
+  );
 }
