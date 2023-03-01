@@ -1,14 +1,9 @@
-const foo = 1;
-
-if (foo == NaN) {
-  // ...
-}
+import React from "react";
 
 export function App() {
   return (
     <div>
-      <div>hello {foo}</div>
-      <div>{`hello ${foo}`}</div>
+      <div>hello world</div>
     </div>
   );
 }

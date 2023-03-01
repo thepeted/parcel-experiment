@@ -6,11 +6,14 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build"
+    "build": "parcel build",
+    "lint": "eslint 'src/**/*.{js,jsx,tsx,ts}'"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "eslint": "^8.2.0",
+    "eslint-plugin-react": "^7.32.2",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   },
