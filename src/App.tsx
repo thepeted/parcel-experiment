@@ -1,5 +1,3 @@
-let foo;
-
 export function App() {
   return (
     <div>
